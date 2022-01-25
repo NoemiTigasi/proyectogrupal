@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body background="">
+        <center> <h2>Registre su pedido</h2>
+        <form action="conexion.php" method="POST">
+            <br>
+            <br>
+            Código:
+            <br>
+            <input type="number" name="codigo">
+            <br>
+            <br>
+            Nombre:
+            <br>
+            <input type="text" name="nombre">
+            <br>
+            <br>
+            Correo:
+            <br>
+            <input type="text" name="correo">
+            <br>
+            <br>
+            Cantidad:
+            <br>
+            <input type="number" name="cantidad">
+            <br>
+            <br>
+            <input type="submit" name="action" value="GUARDAR">
+        </form> 
+        </section>
+        <section>
+            <h2>Busqueda de datos</h2>
+        <form action="modificar.php" method="post">
+            Buscar Usuario:
+            <input type="text" name="nombre">
+            <br>
+            <br>
+            <input type="submit" name="btnbuscar" value="BUSCAR">
+        </form>
+    </section>
+    <form action="modificar.php" method="post">
+        <br>
+        <input type="number" name="codigo" placeholder="Ingrese un nuevo codigo">
+        <br>
+        <br>
+        <input type="text" name="nombre" placeholder="Ingrese un nuevo nombre">
+        <br>
+        <br>
+        <input type="text" name="correo" placeholder="Ingrese un nuevo correo">
+        <br>
+        <br>
+        <input type="number" name="cantidad" placeholder="Ingrese una nueva cantidad">
+    </form>
+</center>
+    </body>
+</body>
+</html>
