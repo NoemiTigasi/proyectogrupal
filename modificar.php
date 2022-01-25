@@ -5,10 +5,10 @@ $clave="Noemi123tigasi";
 $base="registro";
 $tabla="pedido";
 
-$codigo-$_POST['codigo'];
-$nombre-$_POST['nombre'];
-$correo-$_POST['correo'];
-$cantidad-$_POST['cantidad'];
+$codigo=$_POST['codigo'];
+$nombre=$_POST['nombre'];
+$correo=$_POST['correo'];
+$cantidad=$_POST['cantidad'];
 
 
 $conexion=mysqli_connect($servidor,$usuario,$clave) or die ("error en la conexion del servidor");

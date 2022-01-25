@@ -11,7 +11,6 @@
         <center> <h2>Registre su pedido</h2>
         <form action="conexion.php" method="POST">
             <br>
-            <br>
             Código:
             <br>
             <input type="number" name="codigo">
@@ -36,7 +35,7 @@
         </form> 
         </section>
         <section>
-            <h2>Busqueda de datos</h2>
+            <h2>Busqueda de pedidos</h2>
         <form action="modificar.php" method="post">
             Buscar Usuario:
             <input type="text" name="nombre">
@@ -45,6 +44,8 @@
             <input type="submit" name="btnbuscar" value="BUSCAR">
         </form>
     </section>
+    <section>
+        <h2> Modifique cualquier pedido</h2>
     <form action="modificar.php" method="post">
         <br>
         <input type="number" name="codigo" placeholder="Ingrese un nuevo codigo">
@@ -57,7 +58,24 @@
         <br>
         <br>
         <input type="number" name="cantidad" placeholder="Ingrese una nueva cantidad">
+        <br>
+        <br>
+        <input type="submit" name="btneditar" value="EDITAR">
     </form>
+</section>
+<section>
+    <h2>Elimine el pedido deseado</h2>
+    <form action="eliminar.php" method="post">
+        Busque el pedido por su código
+        <br>
+        <br>
+        <input type="number" name="codigo">
+        <br>
+        <br>
+        <input type="submit" name="btneliminar" value="ELIMINAR">
+    </form>
+
+</section>
 </center>
     </body>
 </body>

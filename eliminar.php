@@ -5,7 +5,7 @@ $clave="Noemi123tigasi";
 $base="registro";
 $tabla="pedido";
 
-$codigo-$_POST['codigo'];
+$codigo=$_POST['codigo'];
 
 $conexion=mysqli_connect($servidor,$usuario,$clave) or die ("error en la conexion del servidor");
 $bases=mysqli_select_db($conexion,$base) or die ("error al conectarse con la base de datos");
